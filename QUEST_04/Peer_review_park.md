@@ -15,7 +15,7 @@
 - [v] 코드 작성자가 코드를 제대로 이해하고 작성했나요? (직접 인터뷰해보기)
 - [v] 코드가 간결한가요?
 
----python
+```python
 
 # 물고기 클래스 만들기
 # 부모 클래스.
@@ -47,7 +47,8 @@ print("\n물고기들의 움직임 (Using list comprehension):")
 fish_movements = [fish.swim() for fish in fish_list]
 for movement in fish_movements:
     print(movement)
----
+
+```
 
 # 참고 링크 및 코드 개선 여부
 
@@ -58,5 +59,3 @@ for movement in fish_movements:
 #
 #
 ```
-
-
