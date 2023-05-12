@@ -25,7 +25,7 @@ with open('/content/06TheAvengers.txt', 'r') as file:
     text = file.read()
 
 # Convert all text to lowercase 
-# 소문자 제거 
+# 소문자 변환 
 text = text.lower()
 
 # Remove all symbols #symbol
